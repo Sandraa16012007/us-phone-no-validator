@@ -9,7 +9,44 @@
     </head>
 
     <body>
+        <div class="content">
+            <div class="left-content">
+                <h1 id="heading">Telephone Number Validator</h1>
+                <div class="description">
+                    <p id="desc1">The US Telephone Number Validator is a simple and efficient web tool designed to help users quickly verify whether a given telephone number follows valid US formatting standards.</p>
+                    <p id="desc2">This validator checks whether a phone number:</p>
+                    <div class="desc-list">
+                        <ul>
+                            <li>Matches accepted US telephone number formats (e.g. (555)555-5555, 555-555-5555 etc.)</li>
+                            <li>Includes an optional country code (1)</li>
+                            <li>Uses proper placement of parentheses, spaces, or dashes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
 
+                <div class="phone-container">
+                    <div class="phone-screen">
+
+                      <div class="phone-content">
+                        <div class="input-label">
+                          <p id="input-desc">Enter a Phone Number:</p>
+                        </div>
+                        
+                        <div class="input-container">
+                          <input type="tel" id="phoneNumber" class="user-input"/></div>
+                        <div id="results-div">Invalid US number: </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <button id="check-button">Check</button>
+                    <button id="clear-button">Clear</button>
+                  </div>
+
+            </div>
+        </div>
         <script src="script.js"></script>
 
     </body>
