@@ -5,6 +5,12 @@
     font-family: Arial, sans-serif;
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #ffffff, #979797);
+}
+
 .content{
     display: flex;
 }
@@ -28,12 +34,22 @@
     justify-content: center;
 }
 
+#heading{
+    margin-bottom:25px;
+    font-size: 40px;
+}
+
 #desc1{
     text-align:center;
 }
 #desc2{
     margin-top:30px;
     margin-bottom:10px;
+}
+
+#desc1, #desc2, ul
+{
+    font-size: 20px;
 }
 
 .phone-container {
@@ -68,6 +84,32 @@
     margin: 0 auto;
 }
 
+#input-desc{
+    position: absolute;
+    top: 30%;
+    right: 18%;
+    font-size:20px;
+    font-weight: bold;
+}
+
+input{
+    width: 270px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#results-div p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .phone-screen-bottom{
     margin-left: 18.5%;
 }
@@ -84,4 +126,9 @@
     cursor: pointer;
     border-radius: 5px;
     margin-right: 10px;
+}
+
+#check-btn:hover, #clear-btn:hover{
+    background-color: rgb(52, 52, 52);
+    transition: 0.3s ease-in-out;
 }
